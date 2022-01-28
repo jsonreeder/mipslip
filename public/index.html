@@ -24,22 +24,28 @@
       }
       #message {
         background: white;
+        display: flex;
+        justify-content: center;
         max-width: 360px;
         margin: 100px auto 16px;
         padding: 32px 24px;
         border-radius: 3px;
       }
-      #message h2 {
-        color: #ffa100;
-        font-weight: bold;
-        font-size: 16px;
-        margin: 0 0 8px;
+      #text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
       }
       #message h1 {
-        font-size: 22px;
+        font-size: 64px;
         font-weight: 300;
-        color: rgba(0, 0, 0, 0.6);
-        margin: 0 0 16px;
+        color: black;
+        margin-bottom: 5px;
+      }
+      #message h2 {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 25px;
       }
       #message p {
         line-height: 140%;
@@ -47,8 +53,9 @@
         font-size: 14px;
       }
       #message a {
+        font-size: 12px;
         text-align: center;
-        background: grey;
+        background: #ffa100;
         text-decoration: none;
         color: white;
         padding: 5px;
@@ -71,14 +78,16 @@
   </head>
   <body>
     <div id="message">
-      <h1>MIPSLIP</h1>
-      <h2>2/12 11:30am</h2>
-      <a
-        target="_blank"
-        href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N25vaXA5MTFzcWpscTFra3BwczkwMG1nb28gY19rdWdzMG9hajNvbzNxOGNsaXZrcWFmajFuMEBn&amp;tmsrc=c_kugs0oaj3oo3q8clivkqafj1n0%40group.calendar.google.com"
-      >
-        add to calendar
-      </a>
+      <div id="text">
+        <h1>MIPSLIP</h1>
+        <h2>2/12 11:30am</h2>
+        <a
+          target="_blank"
+          href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N25vaXA5MTFzcWpscTFra3BwczkwMG1nb28gY19rdWdzMG9hajNvbzNxOGNsaXZrcWFmajFuMEBn&amp;tmsrc=c_kugs0oaj3oo3q8clivkqafj1n0%40group.calendar.google.com"
+        >
+          add to calendar
+        </a>
+      </div>
       <img
         src="https://firebasestorage.googleapis.com/v0/b/mipslip.appspot.com/o/stamp.jpg?alt=media&token=633e9638-1d42-4381-afed-41ea12746a0b"
       />
