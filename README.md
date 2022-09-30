@@ -1,4 +1,5 @@
 # MIPSLIP
+
 ## Run locally
 
 Run `firebase emulators: start`
