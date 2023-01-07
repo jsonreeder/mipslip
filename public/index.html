@@ -21,6 +21,11 @@
         margin: 0;
         padding: 0;
         text-align: justify;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        overflow: scroll;
+        min-height: 500px;
       }
       #message {
         display: flex;
@@ -28,7 +33,6 @@
         justify-content: center;
         align-items: center;
         max-width: 360px;
-        margin: 100px auto 16px;
         padding: 32px 24px;
         border-radius: 3px;
       }
@@ -38,8 +42,8 @@
         align-items: flex-end;
       }
       #message h1 {
+        padding-top: 20px;
         font-size: 88px;
-        text-align: justify;
         font-weight: 300;
         color: black;
         margin-bottom: 5px;
@@ -69,6 +73,7 @@
       ul {
         list-style-position: outside;
         padding-left: 20px;
+        padding-bottom: 100px;
       }
       li {
         padding-bottom: 10px;
@@ -83,13 +88,6 @@
       span {
         background-color: white;
         line-height: 120%;
-      }
-      @media (max-width: 600px) {
-        body,
-        #message {
-          margin-top: 0;
-          box-shadow: none;
-        }
       }
     </style>
   </head>
