@@ -23,7 +23,9 @@
       }
       #message {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         max-width: 360px;
         margin: 100px auto 16px;
         padding: 32px 24px;
@@ -86,10 +88,23 @@
         <h1>MIPSLIP</h1>
         <h2>1/7 11:30am</h2>
       </div>
-      <img
-        src="https://firebasestorage.googleapis.com/v0/b/mipslip.appspot.com/o/stamp.jpg?alt=media&token=633e9638-1d42-4381-afed-41ea12746a0b"
-      />
+      <div>
+        <p>Asks from the hosts:</p>
+        <li>Please bring a creative work to share.</li>
+        <li>
+          Please ask everyone present before taking any kind of recordings
+          (photo, video, or audio).
+        </li>
+        <li>
+          Please stay home if you have COVID or COVID symptoms. Before indoor
+          MIPSLIPs, please send the hosts a photo of a recent negative COVID
+          test.
+        </li>
+      </div>
     </div>
+    <img
+      src="https://firebasestorage.googleapis.com/v0/b/mipslip.appspot.com/o/stamp.jpg?alt=media&token=633e9638-1d42-4381-afed-41ea12746a0b"
+    />
 
     <script type="module">
       import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js';
