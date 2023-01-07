@@ -2,7 +2,7 @@
 
 ## Run locally
 
-Run `firebase emulators: start`
+Run `firebase emulators:start`
 
 Go to http://localhost:5000/
 
